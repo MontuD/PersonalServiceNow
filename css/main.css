@@ -1,0 +1,51 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 1em;
+}
+
+.section {
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .col-sm {
+  width: 40%;
+}
+
+.issue-container {
+  margin: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.issue-container .card {
+  padding: 2em;
+  margin: .5em;
+  font-size: medium;
+  border: 1px solid grey;
+}
+
+.issue-container .card .gpnnumber {
+  padding: .5em;
+}
+
+.issue-container .card .issuedesc {
+  padding: .5em;
+}
+/*# sourceMappingURL=main.css.map */
